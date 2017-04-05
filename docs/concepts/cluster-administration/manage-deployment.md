@@ -363,7 +363,7 @@ $ kubectl get deployment my-nginx -o yaml
 ```
 
 ```yaml
-apiVersion: apps/v1beta1
+apiVersion: extensions/v1beta1
 kind: Deployment
 ...
 spec:
@@ -382,7 +382,7 @@ $ kubectl get pod my-nginx-1jgkf -o yaml
 ```
 
 ```yaml
-apiVersion: apps/v1beta1
+apiVersion: extensions/v1beta1
 kind: Deployment
 ...
 spec:

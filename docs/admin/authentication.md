@@ -181,7 +181,7 @@ talk to the API server. Accounts may be explicitly associated with pods using th
 NOTE: `serviceAccountName` is usually omitted because this is done automatically.
 
 ```
-apiVersion: apps/v1beta1
+apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: nginx-deployment
