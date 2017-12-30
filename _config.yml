@@ -14,10 +14,10 @@ safe: false
 lsi: false
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
+      description: null
       fullversion: "v1.9.0"
       version: "v1.9"
       githubbranch: "master"
@@ -51,10 +51,10 @@ defaults:
       deprecated: false
       currentUrl: https://kubernetes.io/docs/home/
       nextUrl: http://kubernetes-io-vnext-staging.netlify.com/
-  -
-    scope:
+  - scope:
       path: "docs"
     values:
+      description: null
       layout: docwithnav
       showedit: true
 
